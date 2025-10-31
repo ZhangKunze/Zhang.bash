@@ -1,0 +1,37 @@
+Script Description
+
+1.You need to have Shizuku and grant permission to Termux.
+​2.Shizuku must run in the background.
+​3.The "rish" file has been exported to a directory accessible by Termux, execution permission has been granted, and "PKG" in the file has been replaced with "com.termux".
+​4.Shizuku itself needs high permissions to start via wireless connection or root.
+​5.This process is just for fun, so take it as a joke.
+
+Second Description
+
+English Explanation
+ 
+Script Header
+ 
+ #!/data/data/com.termux/files/usr/bin/bash 
+Specifies the path to the Bash interpreter in the Termux environment, ensuring the system uses the correct program to execute the script.
+ 
+Script Execution Steps
+ 
+- Prints "Current path is:" and pauses for 3 seconds ( sleep 3 ), then displays the current working directory via the  $PWD  variable.
+​
+- Pauses for 2 seconds, then outputs a direct prompt: "Check the directory yourself; your eyes aren't blind."
+​
+- Waits 5 seconds, prints "So boring", and pauses for another 2 seconds.
+​
+- Shows "Let me check your permissions", pauses for 4 seconds, then runs the  whoami  command to print the current username (used to confirm the user identity).
+​
+- Pauses for 1 second, prints "Why are the permissions so low? Let me upgrade them for you.", and then waits 7 seconds.
+​
+- Executes the  sh rish  command to launch the RISH tool.
+ 
+RISH Tool Explanation
+ 
+RISH is a shell utility associated with Shizuku (abbreviated as "SS", an Android permission management tool). Its core function is to help obtain higher operation permissions on Android devices (similar to the  su  command in Linux systems).
+Note: Two prerequisites must be completed before using RISH: 1. First, install the Shizuku (SS) app on your Android device; 2. Open the Shizuku app and correctly grant relevant permissions to Termux. Otherwise, the  sh rish  command will fail to execute, and permission elevation will not be achieved.
+ 
+The above content is already in a TXT-compatible format. You can directly copy all the text (from the title to the end of the RISH tool explanation) and paste it into a text editor (such as nano in Termux), then save it with a  .txt  suffix (e.g.,  script_explanation.txt ) to use it. Do you need me to remind you of the specific nano save command for this operation
