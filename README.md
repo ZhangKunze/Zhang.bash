@@ -2,11 +2,11 @@ This project contains a Bash script for simple permission check and path display
  
 1. Project File Structure
  
--  [Your Script Name].bash : The core executable Bash script (e.g.,  path_check.bash ).
+-  Zhang.bash : The core executable Bash script (e.g.,  path_check.bash ).
 ​
 -  script_explanation.txt : Detailed English explanation of the script (included in this README for convenience).
  
-2. Core Script Content ( [Your Script Name].bash )
+2. Core Script Content ( Zhang.bash )
  
  
  
@@ -35,9 +35,9 @@ The script defaults to Termux (Android) compatibility. For other systems, adjust
 ​
 2. Modify the script header: Use a text editor (e.g., nano, VS Code) to open the  .bash  file, and replace the original interpreter path with your system’s Bash path.
 ​
-3. Grant execution permission: Run  chmod +x [Your Script Name].bash  in the terminal.
+3. Grant execution permission: Run  chmod +x Zhang.bash  in the terminal.
 ​
-4. Run the script: Execute  ./[Your Script Name].bash  to start the script.
+4. Run the script: Execute  ./Zhang.bash  to start the script.
  
 5. RISH Tool Prerequisites (for Permission Elevation)
  
@@ -48,5 +48,3 @@ RISH is a shell tool associated with Shizuku (abbreviated as "SS"), an Android p
 2. Open Shizuku, follow the on-screen prompts to complete device authorization, and grant Termux relevant permissions (critical for RISH to work).
 ​
 3. If  sh rish  fails to execute, recheck Shizuku’s authorization status for Termux.
- 
-You can directly copy all the content above into a file named  README.md  and upload it to your GitHub repository root directory. Do you need me to help you verify if the format of this README is compatible with GitHub’s display rules?
