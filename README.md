@@ -48,3 +48,4 @@ RISH is a shell tool associated with Shizuku (abbreviated as "SS"), an Android p
 2. Open Shizuku, follow the on-screen prompts to complete device authorization, and grant Termux relevant permissions (critical for RISH to work).
 ​
 3. If  sh rish  fails to execute, recheck Shizuku’s authorization status for Termux.
+Chinese please look 脚本说明.txt
