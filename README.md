@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later AND Apache-2.0
+# 本脚本采用双许可证：同时遵守 GPLv3 或更高版本 和 Apache 2.0 的条款。
+# 使用者必须同时满足两种许可证的全部要求。
 This project contains a Bash script for simple permission check and path display, along with a detailed explanation. It is primarily designed for Termux (Android) but supports cross-system use with minor adjustments.
  
 1. Project File Structure

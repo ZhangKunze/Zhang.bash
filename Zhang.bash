@@ -1,4 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
+# SPDX-License-Identifier: GPL-3.0-or-later AND Apache-2.0
+# 本脚本采用双许可证：同时遵守 GPLv3 或更高版本 和 Apache 2.0 的条款。
+# 使用者必须同时满足两种许可证的全部要求。
 echo "当前路径是:"
 sleep 3
 echo $PWD
